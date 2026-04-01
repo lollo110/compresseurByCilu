@@ -252,10 +252,12 @@ footer p{
 
   .seo-text{
     width: 90%;
+    margin: auto;
   }
-
+  
   .seo-text-convert{
     width: 90%;
+    margin: auto;
   }
 
   h1 {
