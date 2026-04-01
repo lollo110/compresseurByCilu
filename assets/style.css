@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+}
+
+input {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.diviseur{
+    display: flex;
+    justify-content: space-around;
+}
+
+.seo-text{
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+.pub {
+    width: 20%;
+}
+
+
+.container {
+  width: 50%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+
+.preview-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.preview-container img {
+  width: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #4cafef;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2196f3;
+}
+
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+
+/* DROP */
+.drop-zone {
+  border: 2px dashed #555;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.drop-zone:hover {
+  border-color: #4cafef;
+}
+
+/* CONTROLS */
+.controls {
+  margin-top: 15px;
+}
+
+/* PROGRESS */
+.progress-container {
+  width: 100%;
+  height: 10px;
+  background: #333;
+  margin-top: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: #4cafef;
+}
+
+/* RESULT */
+.result-item {
+  margin-top: 15px;
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.result-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* DOWNLOAD */
+.download {
+  display: block;
+  margin-top: 8px;
+  background: #22c55e;
+  padding: 8px;
+  text-align: center;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+    width: 40%;
+}
+
+.remove-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    .diviseur {
+        flex-direction: column;
+    }
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .seo-text{
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}

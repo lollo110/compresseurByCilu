@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Compresser image en ligne gratuit | Réduire taille JPG PNG</title>
+
+    <meta
+      name="description"
+      content="Compressez vos images en ligne gratuitement. Réduisez la taille de vos fichiers JPG, PNG rapidement sans perte de qualité."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO bonus -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (partage réseaux) -->
+    <meta property="og:title" content="Compresser image en ligne gratuit" />
+    <meta
+      property="og:description"
+      content="Réduisez la taille de vos images facilement et gratuitement."
+    />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="diviseur">
+      <div class="pub"></div>
+      <div class="container">
+        <h1>Compresseur d'image ByCilu</h1>
+
+        <!-- DROP ZONE -->
+        <div id="dropZone" class="drop-zone">
+          <p>Glisse ton image ici ou clique</p>
+          <input type="file" id="fileInput" accept="image/*" multiple hidden />
+        </div>
+
+        <!-- PREVIEW -->
+        <div class="preview-container">
+          <div>
+            <h3>Original</h3>
+            <img id="originalPreview" />
+            <p id="originalSize"></p>
+          </div>
+
+          <div>
+            <h3>Compressé</h3>
+            <img id="compressedPreview" />
+            <p id="compressedSize"></p>
+          </div>
+        </div>
+
+        <!-- CONTROLS -->
+        <div class="controls">
+          <label>Qualité</label>
+          <input
+            type="range"
+            id="quality"
+            min="0.1"
+            max="1"
+            step="0.1"
+            value="0.7"
+          />
+        </div>
+
+        <button id="compressBtn">Compresser</button>
+
+        <!-- PROGRESS -->
+        <div class="progress-container hidden" id="progressContainer">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <!-- RESULT -->
+        <div id="results"></div>
+
+        <button id="downloadAllBtn" class="hidden">Télécharger tout (ZIP)</button>
+      </div>
+
+      <section class="seo-text">
+  <h2>Compresser plusieurs images en ligne gratuitement</h2>
+  <p>
+    Cet outil vous permet de compresser plusieurs images en une seule fois directement dans votre navigateur.
+    Réduisez le poids de vos fichiers JPG et PNG, avec conversion automatique en WebP pour des images encore plus légères,
+    sans installer de logiciel.
+  </p>
+
+  <h2>Pourquoi compresser ses images ?</h2>
+  <p>
+    La compression d’images permet de réduire leur taille en Mo, ce qui améliore la vitesse de chargement des sites web,
+    optimise le référencement SEO et économise de l’espace de stockage. Des images plus légères offrent aussi une meilleure
+    expérience utilisateur, notamment sur mobile.
+  </p>
+
+  <h2>Un compresseur rapide et sécurisé</h2>
+  <p>
+    Toutes les compressions sont effectuées directement dans votre navigateur. Vos fichiers ne sont jamais envoyés sur un serveur,
+    garantissant une utilisation rapide et totalement sécurisée.
+  </p>
+
+  <h2>Comment utiliser l’outil ?</h2>
+  <p>
+    Glissez-déposez vos images ou cliquez pour les sélectionner, ajustez la qualité de compression,
+    puis lancez la compression. Vous pouvez télécharger chaque image individuellement ou tout récupérer en un seul fichier ZIP.
+  </p>
+
+  <h2>Formats supportés</h2>
+  <p>
+    L’outil supporte les formats JPG, PNG et les convertit automatiquement en WebP lorsque cela est possible,
+    pour une compression optimale avec une bonne qualité visuelle.
+  </p>
+</section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/browser-image-compression@latest/dist/browser-image-compression.js"></script>
+    <script src="./assets/structure.js"></script>
+  </body>
+</html>
