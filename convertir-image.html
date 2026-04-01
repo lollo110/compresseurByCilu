@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Convertir image en JPG, PNG, PDF en ligne</title>
+  <meta name="description" content="Convertissez vos images en JPG, PNG ou PDF gratuitement en ligne. Rapide, sécurisé et sans installation.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+    <div class="nav">
+      <nav>
+        <a href="./index.html">Accueil</a>
+        <a href="./convertir-image.html">Convertir</a>
+      </nav>
+    </div>
+    <div class="diviseur">
+        <div class="pub"></div>
+<div class="container-convert">
+
+  <h1>Convertir image en JPG, PNG ou PDF</h1>
+
+  <!-- DROP -->
+  <div id="dropZone" class="drop-zone">
+    <p>Glisse ton image ou clique</p>
+    <input type="file" id="fileInput" accept="image/*" hidden>
+  </div>
+
+  <div id="previewContainer" class="preview-container-convert hidden">
+  <h3>Preview</h3>
+  <img id="previewImage">
+</div>
+
+  <!-- FORMAT -->
+  <div class="controls">
+    <label>Format de sortie</label>
+    <select id="format">
+      <option value="image/jpeg">JPG</option>
+      <option value="image/png">PNG</option>
+      <option value="image/webp">WebP</option>
+      <option value="pdf">PDF</option>
+    </select>
+  </div>
+
+  <button id="convertBtn">Convertir</button>
+
+  <div id="result"></div>
+
+</div>
+
+<section class="seo-text-convert">
+  <h2>Convertir une image en ligne</h2>
+  <p>
+    Convertissez vos images en JPG, PNG, WebP ou PDF gratuitement.
+    Cet outil fonctionne directement dans votre navigateur sans upload.
+  </p>
+
+  <h2>Pourquoi convertir une image ?</h2>
+  <p>
+    Convertir une image permet de la rendre compatible avec différents outils,
+    de réduire sa taille ou d’améliorer sa qualité.
+  </p>
+</section>
+</div>
+<footer>
+      <p>
+        &copy; 2024 Compresseur d'image ByCilu. Tous droits réservés. 
+      </p>
+      <a href="./about.html">À propos</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./privacy.html">Confidentialité</a>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="./assets/convert.js"></script>
+
+</body>
+</html>

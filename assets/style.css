@@ -18,14 +18,22 @@ input {
     text-align: center;
 }
 
+.seo-text-convert{
+    width: 25%;
+}
+
 .pub {
     width: 20%;
 }
 
-
 .container {
   width: 50%;
   text-align: center;
+}
+
+.container-convert {
+    width: 50%;
+    margin: auto;
 }
 
 h1 {
@@ -66,6 +74,17 @@ margin-top: 15px;
 
 .preview-container img {
   width: 250px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.preview-container-convert {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.preview-container-convert img {
+  max-width: 100%;
   border-radius: 10px;
   margin-top: 10px;
 }
@@ -196,6 +215,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+footer {
+    text-align: center;
+}
+
+footer a{
+    margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #4cafef;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+footer p{
+    margin-bottom: 20px;
 }
 
 /* MOBILE */
