@@ -15,11 +15,12 @@ input {
 .seo-text{
     width: 20%;
     padding: 10px;
-    text-align: center;
-}
-
-.seo-text-convert{
+    text-align: justify;
+  }
+  
+  .seo-text-convert{
     width: 25%;
+    text-align: justify;
 }
 
 .pub {
