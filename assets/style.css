@@ -32,6 +32,29 @@ h1 {
   margin-bottom: 20px;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.nav a {
+margin-top: 15px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background: #4cafef;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav a:hover{
+    background: #2196f3;
+}
+
 
 .preview-container {
   display: flex;
@@ -73,6 +96,22 @@ body {
   color: white;
 }
 
+.justif {
+    text-align: center;
+}
+
+.justif h2{
+    margin-top: 20px;
+}
+
+.justif a {
+    text-decoration: none;
+}
+
+.justif a:hover{
+    color: white;
+    text-decoration: underline;
+}
 
 /* DROP */
 .drop-zone {
