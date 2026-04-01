@@ -36,6 +36,8 @@ h1 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .nav a {
